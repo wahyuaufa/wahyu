@@ -1,0 +1,30 @@
+#kontena {
+            width: 980px;
+            height: auto;
+            margin: 0 auto;
+            background-color: white;
+            padding-top: 10px;
+            padding-bottom: 15px;
+}
+
+#kontena h1{
+    font-size: 27px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-shadow: 2;
+}
+            
+
+#container {
+            width: 906px;
+            height: auto;
+            margin: 0 auto;
+            background-color: white;
+            border: 2px solid black;
+            clear: left;           
+}
+
+.cl{
+    clear: left;
+}

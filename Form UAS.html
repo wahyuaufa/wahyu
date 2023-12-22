@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulir Passanger</title>
+        <link href="layout.css" rel="stylesheet" type="text/css"/>
+        <script src="Jam.js"></script>
+    </head>
+    <body>
+        <div id="wadah"><!--Container-->
+            <div id="header"></div><!--Header-->
+            <div id="nav"><!--Navigasi-->
+                <a href="Index.html">Home</a>
+                <a href="Form UAS.html">Registrasi</a>
+                <a href="Info.html">About us</a>
+                <a href="Gallery.html">Gallery</a>
+                <div class="jam">
+                    <script>
+                    document.write("Now Pukul: "+jam+":"+mnt+":"+dtk+" Tgl: "+hari[hr]+"/"+hr+"/"+(bln+1)+"/"+thn);
+                    </script>
+                </div>
+            </div>
+            <div style="width: 980px;
+            height: 900px;
+            background-color: white;
+            padding: 0px;"><!--Konten-->
+                <form method="post" action="">
+                    <center><br><b>PENDAFTARAN MEMBER</b></center></font><br/>
+                    <div style="
+                    width: 880px;
+                    height: 800px;
+                    background-color: #6b6a6a;
+                    padding: 0px;
+                    border-radius: 10px;
+                    margin: auto;
+                    font-size: 17px;">
+                        <div id="formkr"><!--Form bagian kiri-->
+                        <pre>
+            Nama:
+            <input type="text" name="nama" size="15" value="" placeholder="Masukkan Nama"/><br>
+            Jenis Kelamin:
+            <input type="radio" name="jk" value="women"> Perempuan <input type="radio" name="jk" value="men"> Laki-laki
+
+            Alamat:
+            <textarea name="alamat" value="" rows="3" cols="25" placeholder="Desa, RT/RW, Kecamatan, Kabupaten, Provinsi"></textarea><br>
+            No Handphone:
+            <input type="number"placeholder="Masukkan Nomor HP"  name="no hp" value="" size="12" /><br>
+            Upload Selfie:
+            <input type="file" style="margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 50%;
+    padding: 12px 20px;" />
+            
+            
+                        </pre>
+
+                        </div>
+                        <div id="formkn"><!--Form bagian kanan-->
+                            <pre>
+        Sapaan:
+        <input type="text" name="nama" size="15" value="" placeholder="Masukkan nama sapaan"/><br>
+        NIK:
+        <input type="number" name="nik" placeholder="Masukkan NIK" size="16" value=""/>
+        Agama:
+        <select><option>--Pilih Agama--</option><option>Islam</option><option>Kristen</option><option>Katolik</option><option>Konghuchu</option><option>Hindu</option><option>Buddha</option></select>
+        Nomor Anggota:
+        <input type="number"placeholder="Abaikan jika tidak ada"  name="no hp" value="" size="12" /><br>
+        Hobby: 
+        <input type="checkbox" name="Hobby" value="olahraga" /> Olahraga <input type="checkbox" name="Hobby" value="seni" /> Seni <br>        <input type="checkbox" name="Hobby" value="spiritual" /> Spiritual <br>
+                            </pre>
+                        </div>
+                        <center><button type="submit" name="kirim" value="KIRIM" onclick="alert('Apakah data yang dimasukkan sudah benar?')">KIRIM</button></center>
+                    </div>
+
+                        <!--<tr>
+                            <td>Nama:</td> <td><input type="text" name="nama" size="15" value="" placeholder="Masukkan Nama"/></td> <td>Tanggal lahir:</td> <td><input type="date" name="ttl" value=""/></td>
+                        </tr>
+                        <tr>
+                            <td>Sapaan:</td> <td><input type="text" name="sapaan" size="15" value="" placeholder="Nama sapaan anda" /></td> <td>NIK:</td> <td><input type="number" name="nik" placeholder="Masukkan NIK" size="16" value=""/></td>
+                        </tr>
+                        <tr>
+                            <td>Jenis kelamin:</td> <td><input type="radio" name="jk" value="women"> Perempuan <input type="radio" name="jk" value="men"> Laki-laki</td> <td>Agama:</td> <td><select><option>--Pilih Agama--</option><option>Islam</option><option>Kristen</option><option>Katolik</option><option>Konghuchu</option><option>Hindu</option><option>Buddha</option></select></td>
+                        </tr>
+                        <tr>
+                            <td>Alamat:</td> <td><textarea name="alamat" value="" rows="3" cols="25"></textarea></td> <td>Asal Sekolah:</td><td><input type="text" name="asal sekolah" size="10" value="" /></td>
+                        </tr>
+                        <tr>
+                            <td>No HP:</td><td><input type="number"placeholder="Masukkan Nomor HP"  name="no hp" value="" size="12" /></td> <td>Surel:</td> <td><input type="email" size="12" name="email" value="" placeholder="Masukkan Email" /></td>
+                        </tr>
+                        <tr>
+                            <td>Kategori Hobby:</td> <td><input type="checkbox" name="Hobby" value="olahraga" /> Olahraga <input type="checkbox" name="Hobby" value="seni" /> Seni <br> <input type="checkbox" name="Hobby" value="spiritual" /> Spiritual <br></td> <td>Kritik dan saran:</td> <td><textarea rows="3" cols="17" name="komen" value=""></textarea></td>
+                        </tr>
+                        <tr>
+                            <td</td>
+                        </tr>
+                        
+                        <tr><td><br/><br/></td></tr>
+                        <tr>
+                            <td colspan="6"><center><input type="submit" name="kirim" value="KIRIM"> <input type="reset" name="batal" value="BATAL"></center></td>
+                        </tr>-->
+                </form>
+            </div>
+            <div div style="width: 980px;
+            height: 80px;
+            background-color: #181610;
+            margin-top: 0px;
+            padding-top: 10px;">
+            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;
+                      font-size: 14px;
+                      color: #ffffff;
+                      text-align: center;
+                      clear: left;">
+                      <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;
+                      font-size: 14px;
+                      color: #ffffff;
+                      text-align: center;
+                      clear: left, right;">
+                Nama: Wahyu Al Aufa<br>
+                NIM: 231011700074<br>
+                Kelas: 01SIFE002<br>
+            </p>
+            </div><!--Footer-->
+        </div>
+    </body>
+</html>

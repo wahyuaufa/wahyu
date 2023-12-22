@@ -1,0 +1,190 @@
+body{
+    background-image: url(Media/download.jpg);
+}
+#wadah{
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#header{
+    width: 980px;
+    height: 280px;
+    background-image: url("Media/bnrrr.png");
+    background-size: 100% 100%;
+    background-color: #ffffff;
+}
+
+#nav{
+    width:978px;
+    height: 30px;
+    background-color: #f1aa5a ;
+    border: 1px solid #f1aa5a;
+    margin: auto;
+}
+
+#nav a{
+    color: blue;
+    text-decoration: none;
+    float: left;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+}
+
+#nav a:hover{
+    color: black;
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+#konten{
+    width: 980px;
+    height: auto;
+    background-color: #c1a769;
+    padding: 0px;
+    margin:auto
+    border 5px solid yellow;
+}
+
+#konten h1{
+    color: red;
+}
+
+#konten p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: justify;
+}
+
+#konkiri{
+    width: 715px;
+    background-color: #eee;
+    height: 900px;
+    float: left;
+    padding: 10px 10px 0 10px;
+    margin-bottom: 0;
+
+}
+
+#konkanan{
+    width: 245px;
+    background-color: #eee;
+    float: right;
+    height: 900px;
+    margin-bottom: 0;
+    padding: 10px 0px 0px 0px;
+}
+
+#footer{
+    width: 980px;
+    height: 80px;
+    background-color: #181610;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-top: 0;
+}
+
+#footer p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    clear: left, right;
+}  
+
+input[type=text], select, textarea, input[type=number] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+button {
+    width: 70%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 2px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.02);
+}  
+
+#formkr{  
+  padding: 20px;
+  float: left;
+  width: 400px;
+}
+
+#formkn{
+  padding: 20px;
+  float: right;
+  width: 400px;
+}
+
+#isikonkanan{
+    width: 200px;
+    height: auto;  
+    margin: auto;
+}
+
+#isikonkanan img{
+    width: 150px;
+    height: 160px;
+    border-radius: 3px;
+    margin: 1px 25px;
+    border: 1px yellow solid;
+}
+
+#isikonkanan img:hover{
+    transform: scale(1.1);
+    background-color: rgba(179, 245, 231, 0.582);
+}
+
+#gambar{
+    width: 300px;
+    height: auto;
+    float: left;
+}
+
+#gambar p{
+    padding-top: 0;
+    text-align: center;
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+#gambar img {
+    width: 255px;
+    height: 180px;
+    margin: 20px 20px 0 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    object-fit: cover;
+}
+
+#gambar img :hover{
+    transform: scale(1.15);
+    background-color: rgba(179, 245, 231, 0.582);
+}
+
+.cl{
+    clear: left;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.jam{
+    float: right;
+    font-size: 19px;
+    margin-right: 5px;
+    color: blue;
+}
