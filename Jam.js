@@ -1,4 +1,3 @@
-var nama = window.prompt("Tak kenal maka tak sayang, Silahkan masukkan nama anda.");
              var times = new Date();
              var jam = times.getHours();
              var mnt = times.getMinutes();
