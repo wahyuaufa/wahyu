@@ -13,7 +13,7 @@ if( jam <= 4){
     window.alert("Hallo Selamat pagi "+nama+" Jangan lupakan jaket karena sekarang masih dingin.")
 }
 else if( jam <=10 ){
-    dwindow.alert("Hallo Selamat pagi "+nama+" Selamat menjalani hari ini.");
+    window.alert("Hallo Selamat pagi "+nama+" Selamat menjalani hari ini.");
 }
 else if(jam <=14){
     window.alert("Hallo Selamat siang "+nama+" Tetap semangat ya! Have a nice day.")
